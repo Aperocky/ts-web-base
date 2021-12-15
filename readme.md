@@ -7,15 +7,19 @@ This is intended as a starter package for a typescript front-end application wri
 
 Structure:
 
-`src/main.ts`: Main entry point, this is what gets compiled into `script.js` and `script.min.js`
-`tst/**/*.ts`: All of these files will be ran as mocha/chai tests.
-`assets/index.html`: The base html file to utilize the generated `script.min.js`
+* `src/main.ts`: Main entry point, this is what gets compiled into `script.js` and `script.min.js`
+
+* `tst/**/*.ts`: All of these files will be ran as mocha/chai tests.
+
+* `assets/index.html`: The base html file to utilize the generated `script.min.js`
 
 Commands:
 
-`npm test`: Will run all `.ts` files under `tst/`
-`npm run compile`: This will compile all `ts` file under `src`, then use `browserify` to condense all of them into `script.js`, `uglify` are then used to generate `script.min.js`
-`npm start`: This starts a http-server at `assets/`. After it is compiled, the `assets/` directory should contain `index.html`, `script.js` and `script.min.js`.
+* `npm test`: Will run all `.ts` files under `tst/`
+
+* `npm run compile`: This will compile all `ts` file under `src`, then use `browserify` to condense all of them into `script.js`, `uglify` are then used to generate `script.min.js`
+
+* `npm start`: This starts a http-server at `assets/`. After it is compiled, the `assets/` directory should contain `index.html`, `script.js` and `script.min.js`.
 
 For a fresh project, the page should say `IT WORKS!`
 
