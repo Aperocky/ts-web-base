@@ -1,0 +1,19 @@
+{
+  "name": "ts_web_base",
+  "version": "1.0.0",
+  "description": "Basic ts framework for a client side webapp Rocky style",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register 'tst/**/*.ts'",
+    "compile": "./compile.sh",
+    "start": "./serve.sh"
+  },
+  "author": "Rocky Li",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^9.0.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "ts-node": "^10.4.0"
+  }
+}
